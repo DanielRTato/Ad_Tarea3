@@ -1,0 +1,37 @@
+[ {
+  "idPelicula" : "1",
+  "titulo" : "qw",
+  "xenero" : "ass",
+  "ano" : 10,
+  "actores" : [ ]
+}, {
+  "idPelicula" : "3",
+  "titulo" : "asd",
+  "xenero" : "asd",
+  "ano" : 10,
+  "actores" : [ {
+    "idActor" : "1",
+    "nome" : "dfg",
+    "apelidos" : "dfg",
+    "nacionalidade" : "dfg",
+    "pelicula" : null
+  } ]
+}, {
+  "idPelicula" : "697673293e59c31d5cd68ce9",
+  "titulo" : "qw",
+  "xenero" : "ass",
+  "ano" : 10,
+  "actores" : [ ]
+}, {
+  "idPelicula" : "697673293e59c31d5cd68cea",
+  "titulo" : "asd",
+  "xenero" : "asd",
+  "ano" : 10,
+  "actores" : [ {
+    "idActor" : null,
+    "nome" : "dfg",
+    "apelidos" : "dfg",
+    "nacionalidade" : "dfg",
+    "pelicula" : null
+  } ]
+} ]
