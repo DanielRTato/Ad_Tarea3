@@ -23,11 +23,17 @@ public class Secuencia {
 
     public void executar() {
 
+        Pelicula peliPorId = peliculaService.obtenerPorId(4L);
+        Pelicula peliPorTitulo = peliculaService.obtenerPorTitulo("Pulp Fiction");
+
+        peliculaService.crearPelicula(peliPorId);
+        peliculaService.crearPelicula(peliPorTitulo);
+
+
         List<Pelicula> lista_peliculas = conexion.getAllPeliculas();
         for (Pelicula pelicula : lista_peliculas) {
             System.out.println("Película recibida: " + pelicula);
             peliculaService.crearPelicula(pelicula);
-
         }
 
         peliculaService.exportarAJSON();

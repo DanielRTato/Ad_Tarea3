@@ -5,10 +5,19 @@ import jakarta.persistence.*;
 
 import java.util.List;
 
+/**
+ * @Entity: A diferencia de @Document en Mongo, @Entity indica que esta clase es una entidad JPA
+ * que se mapeará a una tabla en una base de datos relacional (PostgreSQL).
+ */
 @Entity
 @Table(name="peliculas")
 public class Pelicula {
 
+    /**
+     * @Id: Clave primaria.
+     * @GeneratedValue: En SQL solemos usar estrategias de autoincremento (IDENTITY).
+     * En Mongo no es necesario, ya que él genera su propio ObjectId.
+     */
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="idpelicula")
@@ -22,6 +31,13 @@ public class Pelicula {
 
     private int ano;
 
+    /**
+     * RELACIONES (Gran diferencia):
+     * En SQL usamos @OneToMany, @ManyToOne, etc.
+     * mappedBy: Define el lado inverso de la relación.
+     * CascadeType.ALL: Si borras la película, se borran sus actores (integridad referencial).
+     * FetchType.EAGER: Carga los actores inmediatamente al buscar la película.
+     */
     @OneToMany(mappedBy = "pelicula", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
     @JsonManagedReference
     private List<Actor> actores;

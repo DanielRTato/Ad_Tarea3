@@ -1,37 +1,49 @@
 [ {
-  "idPelicula" : "1",
-  "titulo" : "qw",
-  "xenero" : "ass",
-  "ano" : 10,
-  "actores" : [ ]
-}, {
-  "idPelicula" : "3",
-  "titulo" : "asd",
-  "xenero" : "asd",
-  "ano" : 10,
+  "idPelicula" : "6978f9090521792dfaf02e8e",
+  "titulo" : "O Padriño",
+  "xenero" : "Drama",
+  "ano" : 1972,
   "actores" : [ {
-    "idActor" : "1",
-    "nome" : "dfg",
-    "apelidos" : "dfg",
-    "nacionalidade" : "dfg",
+    "idActor" : null,
+    "nome" : "Marlon",
+    "apelidos" : "Brando",
+    "nacionalidade" : "Estados Unidos",
+    "pelicula" : null
+  }, {
+    "idActor" : null,
+    "nome" : "Al",
+    "apelidos" : "Pacino",
+    "nacionalidade" : "Estados Unidos",
+    "pelicula" : null
+  }, {
+    "idActor" : null,
+    "nome" : "James",
+    "apelidos" : "Caan",
+    "nacionalidade" : "Estados Unidos",
     "pelicula" : null
   } ]
 }, {
-  "idPelicula" : "697673293e59c31d5cd68ce9",
-  "titulo" : "qw",
-  "xenero" : "ass",
-  "ano" : 10,
-  "actores" : [ ]
-}, {
-  "idPelicula" : "697673293e59c31d5cd68cea",
-  "titulo" : "asd",
-  "xenero" : "asd",
-  "ano" : 10,
+  "idPelicula" : "6978f9090521792dfaf02e8f",
+  "titulo" : "Pulp Fiction",
+  "xenero" : "Crime",
+  "ano" : 1994,
   "actores" : [ {
     "idActor" : null,
-    "nome" : "dfg",
-    "apelidos" : "dfg",
-    "nacionalidade" : "dfg",
+    "nome" : "John",
+    "apelidos" : "Travolta",
+    "nacionalidade" : "Estados Unidos",
+    "pelicula" : null
+  }, {
+    "idActor" : null,
+    "nome" : "Uma",
+    "apelidos" : "Thurman",
+    "nacionalidade" : "Estados Unidos",
+    "pelicula" : null
+  }, {
+    "idActor" : null,
+    "nome" : "Samuel L.",
+    "apelidos" : "Jackson",
+    "nacionalidade" : "Estados Unidos",
     "pelicula" : null
   } ]
 } ]
