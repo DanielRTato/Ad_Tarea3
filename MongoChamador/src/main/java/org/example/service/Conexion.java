@@ -75,6 +75,17 @@ public class Conexion {
         }
     }
 
+    public List<Pelicula> getPeliculaByTitulo(String titulo) {
+        try {
+            String url = POSTGRES_URL_PELICULAS + "/titulo/" + titulo;
+            ResponseEntity<List<Pelicula>> response = restTemplate.exchange(url, HttpMethod.GET, null, new ParameterizedTypeReference<List<Pelicula>>() {});
+            return response.getBody();
+        } catch (HttpClientErrorException e) {
+            System.out.println("Error al obtener la pelicula con titulo " + titulo + ": " + e.getMessage());
+            return null;
+        }
+    }
+
     /**
      * Obtiene una película por su id desde el servicio Postgres.
      *
