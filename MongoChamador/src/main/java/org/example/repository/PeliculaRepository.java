@@ -13,7 +13,7 @@ import java.util.List;
  * NOTA: Si en el modelo el ID es String, aquí debería ser String.
  */
 @Repository
-public interface PeliculaRepository extends MongoRepository<Pelicula, Long> {
+public interface PeliculaRepository extends MongoRepository<Pelicula, String> {
 
     /**
      * Query Method: Spring genera automáticamente la consulta basándose en el nombre del método.

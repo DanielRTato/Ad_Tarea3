@@ -66,7 +66,6 @@ public class Conexion {
                     null,
                     new ParameterizedTypeReference<List<Pelicula>>() {}
             );
-
             // Evitar devolver null; preferir lista vacía para no forzar comprobaciones null en el llamador.
             return response.getBody() != null ? response.getBody() : Collections.emptyList();
         }  catch (Exception e) {

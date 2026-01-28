@@ -1,21 +1,15 @@
 package org.example.model;
 
-import com.fasterxml.jackson.annotation.JsonBackReference;
-import com.fasterxml.jackson.annotation.JsonProperty;
-import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document(collection = "actores")
 public class Actor {
 
-    @Id
     private String idActor;
 
     private String nome;
     private String apelidos;
     private String nacionalidade;
 
-    private Pelicula pelicula;
+    private Long idPelicula;
 
     public String getIdActor() {
         return idActor;
@@ -49,12 +43,12 @@ public class Actor {
         this.nacionalidade = nacionalidade;
     }
 
-    public Pelicula getPelicula() {
-        return pelicula;
+    public Long getIdPelicula() {
+        return idPelicula;
     }
 
-    public void setPelicula(Pelicula pelicula) {
-        this.pelicula = pelicula;
+    public void setIdPelicula(Long idPelicula) {
+        this.idPelicula = idPelicula;
     }
 
     @Override
@@ -64,7 +58,7 @@ public class Actor {
                 ", nome='" + nome + '\'' +
                 ", apelidos='" + apelidos + '\'' +
                 ", nacionalidade='" + nacionalidade + '\'' +
-                ", pelicula=" + pelicula +
+                ", pelicula=" + idPelicula +
                 '}';
     }
 }

@@ -21,15 +21,13 @@ import java.util.List;
 public class PeliculaService {
 
     private final PeliculaRepository peliculaRepository;
-    private final ActorRepository actorRepository;
 
     /**
      * Inyección por constructor: Es la forma recomendada en Spring Boot.
      * Spring inyecta automáticamente las implementaciones de los repositorios.
      */
-    public PeliculaService(PeliculaRepository peliculaRepository, ActorRepository actorRepository) {
+    public PeliculaService(PeliculaRepository peliculaRepository) {
         this.peliculaRepository = peliculaRepository;
-        this.actorRepository = actorRepository;
     }
 
     public void crearPelicula(Pelicula pelicula){
@@ -57,7 +55,7 @@ public class PeliculaService {
         }
     }
 
-    public Pelicula obtenerPorId(Long id){
+    public Pelicula obtenerPorId(String id){
         // findById devuelve un Optional. .orElse(null) es una forma de manejar si no existe.
         return peliculaRepository.findById(id).orElse(null);
     }

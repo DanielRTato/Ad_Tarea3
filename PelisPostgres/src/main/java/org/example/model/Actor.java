@@ -23,7 +23,7 @@ public class Actor {
     private String nacionalidade;
 
     @ManyToOne
-    @JoinColumn(name = "id_pelicula") // FK a peliculas(id_pelicula)
+    @JoinColumn(name = "idpelicula") // FK a peliculas(idpelicula)
     @JsonBackReference
     private Pelicula pelicula;
 

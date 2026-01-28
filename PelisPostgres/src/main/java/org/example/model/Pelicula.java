@@ -32,7 +32,7 @@ public class Pelicula {
     private int ano;
 
     /**
-     * RELACIONES (Gran diferencia):
+     * RELACIONES:
      * En SQL usamos @OneToMany, @ManyToOne, etc.
      * mappedBy: Define el lado inverso de la relación.
      * CascadeType.ALL: Si borras la película, se borran sus actores (integridad referencial).

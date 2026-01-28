@@ -27,6 +27,24 @@ public class Pelicula {
     /**
      * En MongoDB, las relaciones pueden ser embebidas (guardar los actores dentro del documento película)
      * o referenciadas (@DBRef). Aquí, por defecto, se guardarán como una lista embebida de objetos.
+     *
+     * Ejemplo de cómo sería la versión REFERENCIADA (comentado):
+     *
+     * // Opción A - Referenciar con @DBRef (actores son documentos en su propia colección):
+     * // import org.springframework.data.mongodb.core.mapping.DBRef;
+     * // @DBRef
+     * // private List<Actor> actores;
+     *
+     * // Opción B - Guardar solo los IDs de los actores (más explícito, controla la resolución manual):
+     * // private List<String> actorIds;
+     *
+     * Notas:
+     * - Con @DBRef, Spring Data guardará una referencia al documento Actor; la resolución puede requerir
+     *   consultas adicionales cuando cargues la película.
+     * - Guardar solo IDs te da control total (no hay resolución automática) y es útil si quieres
+     *   reaccionar manualmente o hacer consultas personalizadas.
+     * - Si prefieres embebido (actual enfoque), deja `private List<Actor> actores;` sin @DBRef y los
+     *   actores se almacenarán como subdocumentos dentro de la película.
      */
     private List<Actor> actores;
 

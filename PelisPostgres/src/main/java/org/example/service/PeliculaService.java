@@ -39,6 +39,7 @@ public class PeliculaService {
     }
 
     public Optional<Pelicula> findById(Long id) {
+
         return peliculaRepository.findById(id);
     }
 

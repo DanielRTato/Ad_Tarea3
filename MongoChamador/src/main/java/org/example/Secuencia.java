@@ -23,7 +23,7 @@ public class Secuencia {
 
     public void executar() {
 
-        Pelicula peliPorId = peliculaService.obtenerPorId(4L);
+        Pelicula peliPorId = peliculaService.obtenerPorId("4");
         Pelicula peliPorTitulo = peliculaService.obtenerPorTitulo("Pulp Fiction");
 
         peliculaService.crearPelicula(peliPorId);

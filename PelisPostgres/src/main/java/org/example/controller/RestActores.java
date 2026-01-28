@@ -54,7 +54,6 @@ public class RestActores {
                     a.setNome(datos.getNome());
                     a.setApelidos(datos.getApelidos());
                     a.setNacionalidade(datos.getNacionalidade());
-                    a.setPelicula(datos.getPelicula());
 
                     if (datos.getPelicula() != null && datos.getPelicula().getId() != null) {
                         var peli = peliculaService.findById(datos.getPelicula().getId())
