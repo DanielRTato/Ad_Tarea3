@@ -6,20 +6,20 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Document(collection = "actores")
 public class Actor {
     @Id
-    private String idActor;
+    private String idactor;
 
     private String nome;
     private String apelidos;
     private String nacionalidade;
 
-    private String idPelicula;
+    private String idpelicula;
 
     public String getIdActor() {
-        return idActor;
+        return idactor;
     }
 
     public void setIdActor(String idActor) {
-        this.idActor = idActor;
+        this.idactor = idActor;
     }
 
     public String getNome() {
@@ -47,21 +47,21 @@ public class Actor {
     }
 
     public String getIdPelicula() {
-        return idPelicula;
+        return idpelicula;
     }
 
     public void setIdPelicula(String idPelicula) {
-        this.idPelicula = idPelicula;
+        this.idpelicula = idPelicula;
     }
 
     @Override
     public String toString() {
         return "Actor{" +
-                "idActor=" + idActor +
+                "idActor=" + idactor +
                 ", nome='" + nome + '\'' +
                 ", apelidos='" + apelidos + '\'' +
                 ", nacionalidade='" + nacionalidade + '\'' +
-                ", pelicula=" + idPelicula +
+                ", pelicula=" + idpelicula +
                 '}';
     }
 }

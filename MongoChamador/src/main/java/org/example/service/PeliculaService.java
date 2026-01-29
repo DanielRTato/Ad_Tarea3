@@ -34,6 +34,10 @@ public class PeliculaService {
     }
 
     public void crearPelicula(Pelicula pelicula){
+        if (pelicula == null) {
+            System.out.println("crearPelicula recibió null, se ignora.");
+            return;
+        }
         peliculaRepository.save(pelicula); // Guarda un solo documento
     }
 

@@ -43,10 +43,10 @@ public class Conexion {
         try {
             String url = POSTGRES_URL_PELICULAS + "/titulo/" + titulo;
             ResponseEntity<List<Pelicula>> response = restTemplate.exchange(url, HttpMethod.GET, null, new ParameterizedTypeReference<List<Pelicula>>() {});
-            return response.getBody();
-        } catch (HttpClientErrorException e) {
+            return response.getBody() != null ? response.getBody() : Collections.emptyList();
+        } catch (Exception e) {
             System.out.println("Error al obtener la pelicula con titulo " + titulo + ": " + e.getMessage());
-            return null;
+            return Collections.emptyList();
         }
     }
 
