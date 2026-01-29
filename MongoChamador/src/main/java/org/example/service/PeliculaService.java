@@ -6,6 +6,7 @@ import com.fasterxml.jackson.databind.SerializationFeature;
 import org.example.model.Pelicula;
 import org.example.repository.ActorRepository;
 import org.example.repository.PeliculaRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Service;
 
@@ -20,12 +21,14 @@ import java.util.List;
 @Service
 public class PeliculaService {
 
+
     private final PeliculaRepository peliculaRepository;
 
     /**
      * Inyección por constructor: Es la forma recomendada en Spring Boot.
      * Spring inyecta automáticamente las implementaciones de los repositorios.
      */
+    @Autowired
     public PeliculaService(PeliculaRepository peliculaRepository) {
         this.peliculaRepository = peliculaRepository;
     }

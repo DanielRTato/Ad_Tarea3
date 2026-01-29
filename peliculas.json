@@ -1,5 +1,5 @@
 [ {
-  "idPelicula" : "697a7975bbadfa2019b28ed7",
+  "idPelicula" : "697b90ade1b0173902f41d7f",
   "titulo" : "O Padriño",
   "xenero" : "Drama",
   "ano" : 1972,
@@ -23,31 +23,7 @@
     "idPelicula" : null
   } ]
 }, {
-  "idPelicula" : "697a7a722548ac4d97eafdfe",
-  "titulo" : "O Padriño",
-  "xenero" : "Drama",
-  "ano" : 1972,
-  "actores" : [ {
-    "idActor" : null,
-    "nome" : "Marlon",
-    "apelidos" : "Brando",
-    "nacionalidade" : "Estados Unidos",
-    "idPelicula" : null
-  }, {
-    "idActor" : null,
-    "nome" : "Al",
-    "apelidos" : "Pacino",
-    "nacionalidade" : "Estados Unidos",
-    "idPelicula" : null
-  }, {
-    "idActor" : null,
-    "nome" : "James",
-    "apelidos" : "Caan",
-    "nacionalidade" : "Estados Unidos",
-    "idPelicula" : null
-  } ]
-}, {
-  "idPelicula" : "697a7a722548ac4d97eafdff",
+  "idPelicula" : "697b90ade1b0173902f41d80",
   "titulo" : "Pulp Fiction",
   "xenero" : "Crime",
   "ano" : 1994,
@@ -70,4 +46,592 @@
     "nacionalidade" : "Estados Unidos",
     "idPelicula" : null
   } ]
+}, {
+  "idPelicula" : "697b90eabaaa885728d5ce6e",
+  "titulo" : "O Padriño",
+  "xenero" : "Drama",
+  "ano" : 1972,
+  "actores" : [ {
+    "idActor" : null,
+    "nome" : "Marlon",
+    "apelidos" : "Brando",
+    "nacionalidade" : "Estados Unidos",
+    "idPelicula" : null
+  }, {
+    "idActor" : null,
+    "nome" : "Al",
+    "apelidos" : "Pacino",
+    "nacionalidade" : "Estados Unidos",
+    "idPelicula" : null
+  }, {
+    "idActor" : null,
+    "nome" : "James",
+    "apelidos" : "Caan",
+    "nacionalidade" : "Estados Unidos",
+    "idPelicula" : null
+  } ]
+}, {
+  "idPelicula" : "697b90eabaaa885728d5ce6f",
+  "titulo" : "Pulp Fiction",
+  "xenero" : "Crime",
+  "ano" : 1994,
+  "actores" : [ {
+    "idActor" : null,
+    "nome" : "John",
+    "apelidos" : "Travolta",
+    "nacionalidade" : "Estados Unidos",
+    "idPelicula" : null
+  }, {
+    "idActor" : null,
+    "nome" : "Uma",
+    "apelidos" : "Thurman",
+    "nacionalidade" : "Estados Unidos",
+    "idPelicula" : null
+  }, {
+    "idActor" : null,
+    "nome" : "Samuel L.",
+    "apelidos" : "Jackson",
+    "nacionalidade" : "Estados Unidos",
+    "idPelicula" : null
+  } ]
+}, {
+  "idPelicula" : "697ba1c5d18ab16f533dc760",
+  "titulo" : "O Padriño",
+  "xenero" : "Drama",
+  "ano" : 1972,
+  "actores" : [ {
+    "idActor" : null,
+    "nome" : "Marlon",
+    "apelidos" : "Brando",
+    "nacionalidade" : "Estados Unidos",
+    "idPelicula" : null
+  }, {
+    "idActor" : null,
+    "nome" : "Al",
+    "apelidos" : "Pacino",
+    "nacionalidade" : "Estados Unidos",
+    "idPelicula" : null
+  }, {
+    "idActor" : null,
+    "nome" : "James",
+    "apelidos" : "Caan",
+    "nacionalidade" : "Estados Unidos",
+    "idPelicula" : null
+  } ]
+}, {
+  "idPelicula" : "697ba1c6d18ab16f533dc761",
+  "titulo" : "Pulp Fiction",
+  "xenero" : "Crime",
+  "ano" : 1994,
+  "actores" : [ {
+    "idActor" : null,
+    "nome" : "John",
+    "apelidos" : "Travolta",
+    "nacionalidade" : "Estados Unidos",
+    "idPelicula" : null
+  }, {
+    "idActor" : null,
+    "nome" : "Uma",
+    "apelidos" : "Thurman",
+    "nacionalidade" : "Estados Unidos",
+    "idPelicula" : null
+  }, {
+    "idActor" : null,
+    "nome" : "Samuel L.",
+    "apelidos" : "Jackson",
+    "nacionalidade" : "Estados Unidos",
+    "idPelicula" : null
+  } ]
+}, {
+  "idPelicula" : "697ba1c6d18ab16f533dc762",
+  "titulo" : "O Padriño",
+  "xenero" : "Drama",
+  "ano" : 1972,
+  "actores" : [ {
+    "idActor" : null,
+    "nome" : "Marlon",
+    "apelidos" : "Brando",
+    "nacionalidade" : "Estados Unidos",
+    "idPelicula" : null
+  }, {
+    "idActor" : null,
+    "nome" : "Al",
+    "apelidos" : "Pacino",
+    "nacionalidade" : "Estados Unidos",
+    "idPelicula" : null
+  }, {
+    "idActor" : null,
+    "nome" : "James",
+    "apelidos" : "Caan",
+    "nacionalidade" : "Estados Unidos",
+    "idPelicula" : null
+  } ]
+}, {
+  "idPelicula" : "697ba1c6d18ab16f533dc763",
+  "titulo" : "Pulp Fiction",
+  "xenero" : "Crime",
+  "ano" : 1994,
+  "actores" : [ {
+    "idActor" : null,
+    "nome" : "John",
+    "apelidos" : "Travolta",
+    "nacionalidade" : "Estados Unidos",
+    "idPelicula" : null
+  }, {
+    "idActor" : null,
+    "nome" : "Uma",
+    "apelidos" : "Thurman",
+    "nacionalidade" : "Estados Unidos",
+    "idPelicula" : null
+  }, {
+    "idActor" : null,
+    "nome" : "Samuel L.",
+    "apelidos" : "Jackson",
+    "nacionalidade" : "Estados Unidos",
+    "idPelicula" : null
+  } ]
+}, {
+  "idPelicula" : "697ba1c6d18ab16f533dc764",
+  "titulo" : "prueba1",
+  "xenero" : "prueba1",
+  "ano" : 10,
+  "actores" : [ ]
+}, {
+  "idPelicula" : "697ba1c6d18ab16f533dc765",
+  "titulo" : "prueba2",
+  "xenero" : "prueba1",
+  "ano" : 10,
+  "actores" : [ ]
+}, {
+  "idPelicula" : "697ba1c6d18ab16f533dc766",
+  "titulo" : "gf",
+  "xenero" : "fh",
+  "ano" : 0,
+  "actores" : [ {
+    "idActor" : null,
+    "nome" : "fgh",
+    "apelidos" : "fgh",
+    "nacionalidade" : "fgh",
+    "idPelicula" : null
+  } ]
+}, {
+  "idPelicula" : "697ba1c6d18ab16f533dc767",
+  "titulo" : "asd",
+  "xenero" : "Comedia",
+  "ano" : 2024,
+  "actores" : [ ]
+}, {
+  "idPelicula" : "697ba2904924dd1b3d80dd23",
+  "titulo" : "O Padriño",
+  "xenero" : "Drama",
+  "ano" : 1972,
+  "actores" : [ {
+    "idActor" : null,
+    "nome" : "Marlon",
+    "apelidos" : "Brando",
+    "nacionalidade" : "Estados Unidos",
+    "idPelicula" : null
+  }, {
+    "idActor" : null,
+    "nome" : "Al",
+    "apelidos" : "Pacino",
+    "nacionalidade" : "Estados Unidos",
+    "idPelicula" : null
+  }, {
+    "idActor" : null,
+    "nome" : "James",
+    "apelidos" : "Caan",
+    "nacionalidade" : "Estados Unidos",
+    "idPelicula" : null
+  } ]
+}, {
+  "idPelicula" : "697ba2904924dd1b3d80dd24",
+  "titulo" : "Pulp Fiction",
+  "xenero" : "Crime",
+  "ano" : 1994,
+  "actores" : [ {
+    "idActor" : null,
+    "nome" : "John",
+    "apelidos" : "Travolta",
+    "nacionalidade" : "Estados Unidos",
+    "idPelicula" : null
+  }, {
+    "idActor" : null,
+    "nome" : "Uma",
+    "apelidos" : "Thurman",
+    "nacionalidade" : "Estados Unidos",
+    "idPelicula" : null
+  }, {
+    "idActor" : null,
+    "nome" : "Samuel L.",
+    "apelidos" : "Jackson",
+    "nacionalidade" : "Estados Unidos",
+    "idPelicula" : null
+  } ]
+}, {
+  "idPelicula" : "697ba2904924dd1b3d80dd25",
+  "titulo" : "O Padriño",
+  "xenero" : "Drama",
+  "ano" : 1972,
+  "actores" : [ {
+    "idActor" : null,
+    "nome" : "Marlon",
+    "apelidos" : "Brando",
+    "nacionalidade" : "Estados Unidos",
+    "idPelicula" : null
+  }, {
+    "idActor" : null,
+    "nome" : "Al",
+    "apelidos" : "Pacino",
+    "nacionalidade" : "Estados Unidos",
+    "idPelicula" : null
+  }, {
+    "idActor" : null,
+    "nome" : "James",
+    "apelidos" : "Caan",
+    "nacionalidade" : "Estados Unidos",
+    "idPelicula" : null
+  } ]
+}, {
+  "idPelicula" : "697ba2904924dd1b3d80dd26",
+  "titulo" : "Pulp Fiction",
+  "xenero" : "Crime",
+  "ano" : 1994,
+  "actores" : [ {
+    "idActor" : null,
+    "nome" : "John",
+    "apelidos" : "Travolta",
+    "nacionalidade" : "Estados Unidos",
+    "idPelicula" : null
+  }, {
+    "idActor" : null,
+    "nome" : "Uma",
+    "apelidos" : "Thurman",
+    "nacionalidade" : "Estados Unidos",
+    "idPelicula" : null
+  }, {
+    "idActor" : null,
+    "nome" : "Samuel L.",
+    "apelidos" : "Jackson",
+    "nacionalidade" : "Estados Unidos",
+    "idPelicula" : null
+  } ]
+}, {
+  "idPelicula" : "697ba2904924dd1b3d80dd27",
+  "titulo" : "prueba1",
+  "xenero" : "prueba1",
+  "ano" : 10,
+  "actores" : [ ]
+}, {
+  "idPelicula" : "697ba2904924dd1b3d80dd28",
+  "titulo" : "prueba2",
+  "xenero" : "prueba1",
+  "ano" : 10,
+  "actores" : [ ]
+}, {
+  "idPelicula" : "697ba2904924dd1b3d80dd29",
+  "titulo" : "gf",
+  "xenero" : "fh",
+  "ano" : 0,
+  "actores" : [ {
+    "idActor" : null,
+    "nome" : "fgh",
+    "apelidos" : "fgh",
+    "nacionalidade" : "fgh",
+    "idPelicula" : null
+  } ]
+}, {
+  "idPelicula" : "697ba2904924dd1b3d80dd2a",
+  "titulo" : "asd",
+  "xenero" : "Comedia",
+  "ano" : 2024,
+  "actores" : [ ]
+}, {
+  "idPelicula" : "697ba2904924dd1b3d80dd2b",
+  "titulo" : "asd",
+  "xenero" : "Comedia",
+  "ano" : 2024,
+  "actores" : [ ]
+}, {
+  "idPelicula" : "697ba3e35144982c8154a682",
+  "titulo" : "O Padriño",
+  "xenero" : "Drama",
+  "ano" : 1972,
+  "actores" : [ {
+    "idActor" : null,
+    "nome" : "Marlon",
+    "apelidos" : "Brando",
+    "nacionalidade" : "Estados Unidos",
+    "idPelicula" : null
+  }, {
+    "idActor" : null,
+    "nome" : "Al",
+    "apelidos" : "Pacino",
+    "nacionalidade" : "Estados Unidos",
+    "idPelicula" : null
+  }, {
+    "idActor" : null,
+    "nome" : "James",
+    "apelidos" : "Caan",
+    "nacionalidade" : "Estados Unidos",
+    "idPelicula" : null
+  } ]
+}, {
+  "idPelicula" : "697ba3e35144982c8154a683",
+  "titulo" : "Pulp Fiction",
+  "xenero" : "Crime",
+  "ano" : 1994,
+  "actores" : [ {
+    "idActor" : null,
+    "nome" : "John",
+    "apelidos" : "Travolta",
+    "nacionalidade" : "Estados Unidos",
+    "idPelicula" : null
+  }, {
+    "idActor" : null,
+    "nome" : "Uma",
+    "apelidos" : "Thurman",
+    "nacionalidade" : "Estados Unidos",
+    "idPelicula" : null
+  }, {
+    "idActor" : null,
+    "nome" : "Samuel L.",
+    "apelidos" : "Jackson",
+    "nacionalidade" : "Estados Unidos",
+    "idPelicula" : null
+  } ]
+}, {
+  "idPelicula" : "697ba3e35144982c8154a684",
+  "titulo" : "O Padriño",
+  "xenero" : "Drama",
+  "ano" : 1972,
+  "actores" : [ {
+    "idActor" : null,
+    "nome" : "Marlon",
+    "apelidos" : "Brando",
+    "nacionalidade" : "Estados Unidos",
+    "idPelicula" : null
+  }, {
+    "idActor" : null,
+    "nome" : "Al",
+    "apelidos" : "Pacino",
+    "nacionalidade" : "Estados Unidos",
+    "idPelicula" : null
+  }, {
+    "idActor" : null,
+    "nome" : "James",
+    "apelidos" : "Caan",
+    "nacionalidade" : "Estados Unidos",
+    "idPelicula" : null
+  } ]
+}, {
+  "idPelicula" : "697ba3e35144982c8154a685",
+  "titulo" : "Pulp Fiction",
+  "xenero" : "Crime",
+  "ano" : 1994,
+  "actores" : [ {
+    "idActor" : null,
+    "nome" : "John",
+    "apelidos" : "Travolta",
+    "nacionalidade" : "Estados Unidos",
+    "idPelicula" : null
+  }, {
+    "idActor" : null,
+    "nome" : "Uma",
+    "apelidos" : "Thurman",
+    "nacionalidade" : "Estados Unidos",
+    "idPelicula" : null
+  }, {
+    "idActor" : null,
+    "nome" : "Samuel L.",
+    "apelidos" : "Jackson",
+    "nacionalidade" : "Estados Unidos",
+    "idPelicula" : null
+  } ]
+}, {
+  "idPelicula" : "697ba3e35144982c8154a686",
+  "titulo" : "prueba1",
+  "xenero" : "prueba1",
+  "ano" : 10,
+  "actores" : [ ]
+}, {
+  "idPelicula" : "697ba3e35144982c8154a687",
+  "titulo" : "prueba2",
+  "xenero" : "prueba1",
+  "ano" : 10,
+  "actores" : [ ]
+}, {
+  "idPelicula" : "697ba3e35144982c8154a688",
+  "titulo" : "gf",
+  "xenero" : "fh",
+  "ano" : 0,
+  "actores" : [ {
+    "idActor" : null,
+    "nome" : "fgh",
+    "apelidos" : "fgh",
+    "nacionalidade" : "fgh",
+    "idPelicula" : null
+  } ]
+}, {
+  "idPelicula" : "697ba3e35144982c8154a689",
+  "titulo" : "asd",
+  "xenero" : "Comedia",
+  "ano" : 2024,
+  "actores" : [ ]
+}, {
+  "idPelicula" : "697ba3e35144982c8154a68a",
+  "titulo" : "asd",
+  "xenero" : "Comedia",
+  "ano" : 2024,
+  "actores" : [ ]
+}, {
+  "idPelicula" : "697ba3e35144982c8154a68b",
+  "titulo" : "asd",
+  "xenero" : "Comedia",
+  "ano" : 2024,
+  "actores" : [ ]
+}, {
+  "idPelicula" : "697ba442f387f35482f522d2",
+  "titulo" : "O Padriño",
+  "xenero" : "Drama",
+  "ano" : 1972,
+  "actores" : [ {
+    "idActor" : null,
+    "nome" : "Marlon",
+    "apelidos" : "Brando",
+    "nacionalidade" : "Estados Unidos",
+    "idPelicula" : null
+  }, {
+    "idActor" : null,
+    "nome" : "Al",
+    "apelidos" : "Pacino",
+    "nacionalidade" : "Estados Unidos",
+    "idPelicula" : null
+  }, {
+    "idActor" : null,
+    "nome" : "James",
+    "apelidos" : "Caan",
+    "nacionalidade" : "Estados Unidos",
+    "idPelicula" : null
+  } ]
+}, {
+  "idPelicula" : "697ba442f387f35482f522d3",
+  "titulo" : "Pulp Fiction",
+  "xenero" : "Crime",
+  "ano" : 1994,
+  "actores" : [ {
+    "idActor" : null,
+    "nome" : "John",
+    "apelidos" : "Travolta",
+    "nacionalidade" : "Estados Unidos",
+    "idPelicula" : null
+  }, {
+    "idActor" : null,
+    "nome" : "Uma",
+    "apelidos" : "Thurman",
+    "nacionalidade" : "Estados Unidos",
+    "idPelicula" : null
+  }, {
+    "idActor" : null,
+    "nome" : "Samuel L.",
+    "apelidos" : "Jackson",
+    "nacionalidade" : "Estados Unidos",
+    "idPelicula" : null
+  } ]
+}, {
+  "idPelicula" : "697ba443f387f35482f522d4",
+  "titulo" : "O Padriño",
+  "xenero" : "Drama",
+  "ano" : 1972,
+  "actores" : [ {
+    "idActor" : null,
+    "nome" : "Marlon",
+    "apelidos" : "Brando",
+    "nacionalidade" : "Estados Unidos",
+    "idPelicula" : null
+  }, {
+    "idActor" : null,
+    "nome" : "Al",
+    "apelidos" : "Pacino",
+    "nacionalidade" : "Estados Unidos",
+    "idPelicula" : null
+  }, {
+    "idActor" : null,
+    "nome" : "James",
+    "apelidos" : "Caan",
+    "nacionalidade" : "Estados Unidos",
+    "idPelicula" : null
+  } ]
+}, {
+  "idPelicula" : "697ba443f387f35482f522d5",
+  "titulo" : "Pulp Fiction",
+  "xenero" : "Crime",
+  "ano" : 1994,
+  "actores" : [ {
+    "idActor" : null,
+    "nome" : "John",
+    "apelidos" : "Travolta",
+    "nacionalidade" : "Estados Unidos",
+    "idPelicula" : null
+  }, {
+    "idActor" : null,
+    "nome" : "Uma",
+    "apelidos" : "Thurman",
+    "nacionalidade" : "Estados Unidos",
+    "idPelicula" : null
+  }, {
+    "idActor" : null,
+    "nome" : "Samuel L.",
+    "apelidos" : "Jackson",
+    "nacionalidade" : "Estados Unidos",
+    "idPelicula" : null
+  } ]
+}, {
+  "idPelicula" : "697ba443f387f35482f522d6",
+  "titulo" : "prueba1",
+  "xenero" : "prueba1",
+  "ano" : 10,
+  "actores" : [ ]
+}, {
+  "idPelicula" : "697ba443f387f35482f522d7",
+  "titulo" : "prueba2",
+  "xenero" : "prueba1",
+  "ano" : 10,
+  "actores" : [ ]
+}, {
+  "idPelicula" : "697ba443f387f35482f522d8",
+  "titulo" : "gf",
+  "xenero" : "fh",
+  "ano" : 0,
+  "actores" : [ {
+    "idActor" : null,
+    "nome" : "fgh",
+    "apelidos" : "fgh",
+    "nacionalidade" : "fgh",
+    "idPelicula" : null
+  } ]
+}, {
+  "idPelicula" : "697ba443f387f35482f522d9",
+  "titulo" : "asd",
+  "xenero" : "Comedia",
+  "ano" : 2024,
+  "actores" : [ ]
+}, {
+  "idPelicula" : "697ba443f387f35482f522da",
+  "titulo" : "asd",
+  "xenero" : "Comedia",
+  "ano" : 2024,
+  "actores" : [ ]
+}, {
+  "idPelicula" : "697ba443f387f35482f522db",
+  "titulo" : "asd",
+  "xenero" : "Comedia",
+  "ano" : 2024,
+  "actores" : [ ]
+}, {
+  "idPelicula" : "697ba443f387f35482f522dc",
+  "titulo" : "asd",
+  "xenero" : "Comedia",
+  "ano" : 2024,
+  "actores" : [ ]
 } ]

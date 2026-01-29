@@ -11,7 +11,7 @@ import java.util.List;
  * Es el equivalente a @Entity en JPA/Hibernate.
  * collection = "peliculas": Define el nombre de la colección en la base de datos NoSQL.
  */
-@Document(collection = "peliculass1")
+@Document(collection = "peliculass2")
 public class Pelicula {
 
     /**

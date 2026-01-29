@@ -10,10 +10,16 @@
         <module name="postgresEquiposXogadores" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jojo-postgres" target="17" />
+      <module name="MongoChamador (1)" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="MongoChamador" options="-parameters" />
+      <module name="MongoChamador (1)" options="-parameters" />
+      <module name="jojo-postgres" options="-parameters" />
       <module name="postgresEquiposXogadores" options="-parameters" />
     </option>
   </component>

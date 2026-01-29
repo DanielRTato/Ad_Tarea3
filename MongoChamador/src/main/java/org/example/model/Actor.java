@@ -1,15 +1,18 @@
 package org.example.model;
 
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
+@Document(collection = "actores")
 public class Actor {
-
+    @Id
     private String idActor;
 
     private String nome;
     private String apelidos;
     private String nacionalidade;
 
-    private Long idPelicula;
+    private String idPelicula;
 
     public String getIdActor() {
         return idActor;
@@ -43,11 +46,11 @@ public class Actor {
         this.nacionalidade = nacionalidade;
     }
 
-    public Long getIdPelicula() {
+    public String getIdPelicula() {
         return idPelicula;
     }
 
-    public void setIdPelicula(Long idPelicula) {
+    public void setIdPelicula(String idPelicula) {
         this.idPelicula = idPelicula;
     }
 

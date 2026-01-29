@@ -1,5 +1,6 @@
 package org.example.service;
 
+import org.example.model.Actor;
 import org.example.model.Pelicula;
 import org.example.repository.PeliculaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,7 +20,14 @@ public class PeliculaService {
     }
 
     public Pelicula save(Pelicula pelicula) {
+        // Si la película trae actores, hay que decirles a cada uno quién es su padre
+        if (pelicula.getActores() != null) {
+            for (Actor actor : pelicula.getActores()) {
+                actor.setPelicula(pelicula);
+            }
+        }
         return peliculaRepository.save(pelicula);
+       // return peliculaRepository.save(pelicula);
     }
 
     public boolean exists(Long id) {
@@ -41,6 +49,10 @@ public class PeliculaService {
     public Optional<Pelicula> findById(Long id) {
 
         return peliculaRepository.findById(id);
+    }
+
+    public List<Pelicula> obtenerPeliculaPorTitulo(String titulo) {
+        return peliculaRepository.findByTitulo(titulo);
     }
 
 }
